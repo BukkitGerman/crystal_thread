@@ -1,0 +1,10 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+$primary: #f4994b;
+
+@import '~bootstrap/scss/bootstrap';
+
+.main {
+  padding-top: 20px; 
+}
