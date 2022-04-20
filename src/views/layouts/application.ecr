@@ -1,16 +1,15 @@
+ 
 <!doctype html>
-<html>
-  <head>
-    <title>Crystal Thread using Amber</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/dist/main.bundle.css">
-    <link rel="apple-touch-icon" href="/favicon.png">
-    <link rel="icon" href="/favicon.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+  <link rel="shortcut icon" href="./img/fav.png" type="image/x-icon">  
+  <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.12.1/css/pro.min.css">
+  <link rel="stylesheet" type="text/css" href="/dist/main.bundle.css">  
+  <title>Welcome To Cleopatra</title>
+</head>
+<body class="bg-gray-100">
     <nav class="navbar navbar-expand navbar-dark bg-primary mb-3">
       <div class="container">
         <a href="/" class="navbar-brand">
@@ -36,9 +35,10 @@
         <%= content %>
       </div>
     </div>
+<!-- script -->
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script src="/dist/main.bundle.js"></script>
+<!-- end script -->
 
-    <script src="/dist/main.bundle.js"></script>
-
-    <%- if Amber.settings.auto_reload? -%><script src="/js/client_reload.js"></script><%- end -%>
-  </body>
+</body>
 </html>
